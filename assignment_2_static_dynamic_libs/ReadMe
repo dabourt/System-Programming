@@ -1,0 +1,13 @@
+to compile the staticlib:
+	cd ./staticlib
+	gcc -c *.c -l ./mymath
+	gcc *.o -o myexe --static -lmymath -L ./mymath
+	./myexe
+	
+	
+to compile the staticlib:
+	cd ./dynamiclib
+	gcc -c *.c -l ./mymath
+	export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/dabour/Desktop/hallo/assignments/assignment_2/dynamiclib/mymath
+	gcc  *.o -o myexe -lmymath -L ./mymath/
+	./myexe

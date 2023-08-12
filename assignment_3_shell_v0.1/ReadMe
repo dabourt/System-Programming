@@ -1,0 +1,16 @@
+Now you can create the static or dynamic library by using the make file and also can to execute the program by static or dynamic linking.
+
+to build the project with --dynamic-- linking use this command:
+	make
+or 	make dy
+
+to build the project with --static-- linking use this command:
+	make st
+
+If you want to create the dynamic library use this command:
+	make create_dynamic_lib
+	
+	
+Note: if you create the dynamic library you must pass his directory to LD_LIBRARY_PATH so use this command
+	bash run
+

@@ -1,0 +1,2 @@
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/dabour/Desktop/hallo/assignments/assignment_3/assignment_3/mymathlibs
+./myexe

@@ -1,0 +1,13 @@
+Can read MBR an GPT
+
+
+
+make
+
+sudo ./myfdisk ./virtual_dev/mygpt
+
+sudo ./myfdisk ./virtual_dev/myhdd
+
+sudo ./myfdisk ./virtual_dev/myhdd2
+
+sudo ./myfdisk /dev/sda 

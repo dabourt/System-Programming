@@ -1,0 +1,26 @@
+##Shell Simulation.
+
+Build command: 
+	make
+
+Run command:
+	./myshell
+	
+	
+	
+Feature:
+	-export command , unset command using multi variables 
+	EX:
+		~export x y name=Tarek
+		~unset name x
+		
+	-If the user input $var, if the var is exist the shell replace the variable name by the value.
+	EX:
+		~x=ana_gahiz_ya_bash
+		~echo $x $name
+		ana_gahiz_ya_bash Tarek
+		
+	-set command to print all local variable.	
+	~set
+	x=ana_gahiz_ya_bash
+	

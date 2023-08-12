@@ -1,0 +1,37 @@
+mypwd:
+gcc mypwd.c -o mypwd
+
+$ ./mypwd 
+$ /home/dabour/Desktop/hallo/assignments/assignment_4
+
+myecho:
+gcc myecho.c -o myecho
+
+$ ./myecho hallo kernal
+$ hallo kernal
+
+$ ./myecho
+$ You didn't enter anything
+
+mycp:
+gcc mycp.c -o mycp
+
+$ ./mycp file1 file2			#if file1 is exist the command executed
+
+$ ./mycp file1 file2 			#if file1 isn't exist
+$ copy: cannot stat 'file1': No such file or directory
+
+$ ./mycp
+$ No argumant pass : Syntax ==>  mycp [source] [destination]
+
+mymv:
+gcc mymv.c -o mymv
+
+$ ./mymv file1 file2                    #if file1 is exist the command executed
+
+$ ./mymv file1 file2                    #if file1 isn't exist 
+$ move: cannot stat 'file1': No such file or directory
+
+$ ./mymv
+$ No argumant pass : Syntax ==>  mymv [source] [destination]
+
